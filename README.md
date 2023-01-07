@@ -16,11 +16,18 @@
 - Validation
 
 ## Usage
-### Create project
+### Clone project
 ```shell
-mkdir new-project
-cd new-project
 git clone https://github.com/yujung7768903/springboot-boilerplate-with-mysql-jpa.git
+```
+
+### Rename project and packages name as you wish.
+
+### Initialized git repository
+Erase the existing git repository and initialize the new git repository.
+```
+rm -rf .git
+git init
 ```
 
 ### Datasource configuration
